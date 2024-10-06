@@ -56,6 +56,6 @@ async def delete_product(
     await crud.delete_task(session=session, task=task)
 
 
-if __name__ == "__main__":
-    asyncio.run(create_tables())
-    uvicorn.run("main:app", reload=True)
+# if __name__ == "__main__":
+#     asyncio.run(create_tables())
+#     uvicorn.run("main:app", reload=True)
